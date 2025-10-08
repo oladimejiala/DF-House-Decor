@@ -15,8 +15,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <h1 className="text-xl md:text-2xl font-bold text-primary">
-              DF HOUSE AMEUBLEMENT ET DÉCOR
+            <h1 className="text-2xl md:text-3xl font-bold text-primary">
+              DF HOUSE
             </h1>
           </Link>
 
