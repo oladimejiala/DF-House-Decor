@@ -11,6 +11,11 @@ import { Button } from "@/components/ui/button";
 import { products } from "@/data/products";
 import type { Product } from "@/data/products";
 import { useTranslation } from "react-i18next";
+import kitchenWhite from '@/assets/products/modern-kitchen-white.jpg';
+import kitchenIsland from '@/assets/products/modern-kitchen-island.jpg';
+import tvUnit1 from '@/assets/products/tv-wall-unit-1.jpg';
+import bed from '@/assets/products/upholstered-bed.jpg';
+import entryway from '@/assets/products/entryway-console.jpg';
 
 const Index = () => {
   const { t } = useTranslation();
@@ -18,11 +23,11 @@ const Index = () => {
   const [modalOpen, setModalOpen] = useState(false);
   
   const heroImages = [
-    "/images/products/wall-mirror-console.jpg",
-    "/images/products/tv-entertainment-unit.jpg",
-    "/images/products/dining-set.jpg",
-    "/images/products/luxury-platform-bed.jpg",
-    "/images/products/modern-kitchen.jpg"
+    kitchenWhite,
+    kitchenIsland,
+    tvUnit1,
+    bed,
+    entryway
   ];
 
   const handleLearnMore = (product: Product) => {
@@ -59,7 +64,7 @@ const Index = () => {
                   size="lg" 
                   variant="outline" 
                   className="text-lg px-8 py-6 bg-white/10 hover:bg-white/20 text-white border-white/30"
-                  onClick={() => window.open('https://wa.me/22961206674', '_blank')}
+                  onClick={() => window.open('https://wa.me/22961471700', '_blank')}
                 >
                   {t('hero.contactUs')}
                 </Button>

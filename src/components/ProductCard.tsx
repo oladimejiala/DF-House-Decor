@@ -13,8 +13,8 @@ const ProductCard = ({ product, onLearnMore }: ProductCardProps) => {
   const { t } = useTranslation();
   
   const handleBuyNow = () => {
-    const message = `Hello! I'm interested in the ${product.name} (${product.price}). Can you provide more details?`;
-    const whatsappUrl = `https://wa.me/22961206674?text=${encodeURIComponent(message)}`;
+    const message = `Bonjour! Je suis intéressé(e) par ${product.name} (${product.price}). Pouvez-vous me donner plus de détails?`;
+    const whatsappUrl = `https://wa.me/22961471700?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

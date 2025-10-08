@@ -10,10 +10,10 @@ const resources = {
         about: "À Propos"
       },
       hero: {
-        title: "Meubles de Luxe pour",
-        subtitle: "La Maison de Vos Rêves",
-        description: "Transformez vos espaces de vie avec notre collection exquise de meubles artisanaux et de pièces de décoration élégantes.",
-        exploreGallery: "Explorer la Galerie",
+        title: "Meubles Modernes Sur Mesure",
+        subtitle: "De Haute Qualité & Élégants",
+        description: "Fabrication de meubles modernes sur mesure de qualité supérieure avec garantie. Ameublement, rénovation et décoration intérieure pour espaces résidentiels et commerciaux.",
+        exploreGallery: "Découvrir Nos Créations",
         contactUs: "Nous Contacter"
       },
       featured: {
@@ -22,25 +22,25 @@ const resources = {
         viewAll: "Voir Tous les Produits"
       },
       about: {
-        whyChoose: "Pourquoi Choisir D'Assise Déco ?",
-        description: "Avec des années d'expertise dans les meubles de luxe et la décoration intérieure, nous vous apportons le meilleur savoir-faire et des designs intemporels. Chaque pièce est soigneusement sélectionnée pour transformer votre maison en un lieu que vous aimerez.",
+        whyChoose: "Pourquoi Choisir DF HOUSE ?",
+        description: "Spécialisés dans la fabrication de meubles modernes sur mesure de haute qualité, chic et élégants avec garantie. Situés à Calavi, nous transformons vos espaces avec excellence et professionnalisme.",
         learnMore: "En Savoir Plus Sur Nous",
-        title: "Notre Histoire",
+        title: "Notre Expertise",
         mission: "Notre Mission",
         values: "Nos Valeurs",
-        story1: "D'Assise Déco est né d'une passion pour transformer les maisons en foyers. Nous croyons que les meubles sont plus que de simples pièces fonctionnelles - c'est une expression de votre personnalité, de votre style et de la vie que vous souhaitez vivre.",
-        story2: "Notre voyage a commencé avec une mission simple : rendre les meubles de luxe accessibles à ceux qui apprécient l'artisanat de qualité et le design intemporel. Aujourd'hui, nous sommes fiers d'offrir une collection soigneusement sélectionnée de chambres à coucher, de meubles de salon, de pièces de salle à manger et d'articles décoratifs qui rehaussent n'importe quel espace.",
-        story3: "Chaque produit de notre collection est sélectionné avec soin, garantissant qu'il répond à nos normes élevées de qualité, d'esthétique et de fonctionnalité. Nous travaillons directement avec des artisans qualifiés et des fabricants de confiance pour vous apporter des meubles qui dureront des années.",
+        story1: "DF HOUSE AMEUBLEMENT ET DÉCOR est spécialisée dans la fabrication de meubles modernes sur mesure de haute qualité, chic et élégants avec garantie. Nous créons des espaces uniques qui reflètent votre personnalité et votre style de vie.",
+        story2: "Notre usine située à Calavi produit une large gamme de meubles : lits capitonnés, lits modernes, tables basses, canapés bourrés, divans, meubles télé modernes, coin TV, panneaux TV muraux, guéridons, dressings, armoires, tables à manger, meubles de cuisine sur mesure, cuisines à l'américaine, tables de bureaux, coiffeuses, étagères de rangement et bien plus.",
+        story3: "Nous équipons également vos espaces commerciaux et professionnels : boutiques, caves à vin, prêt-à-porter, salons de coiffure, bars, restaurants, hôtels, appartements. Ameublement, rénovation des appartements et décoration intérieure avec garantie de qualité supérieure.",
         valuesTitle: "Nos Valeurs",
         valuesDesc: "Les principes qui guident tout ce que nous faisons",
-        qualityTitle: "Excellence de la Qualité",
-        qualityDesc: "Nous ne sélectionnons que les meilleurs matériaux et travaillons avec des artisans qualifiés pour garantir que chaque pièce répond à nos normes exigeantes.",
-        customerTitle: "Client d'Abord",
-        customerDesc: "Votre satisfaction est notre priorité. Nous offrons un service personnalisé et un soutien tout au long de votre parcours d'ameublement.",
-        passionTitle: "Passion du Design",
-        passionDesc: "Nous aimons ce que nous faisons et cela se voit dans chaque pièce soigneusement sélectionnée de notre collection.",
-        eleganceTitle: "Élégance Intemporelle",
-        eleganceDesc: "Nos meubles combinent l'esthétique contemporaine avec les principes de design classique pour une beauté durable.",
+        qualityTitle: "Qualité Supérieure Garantie",
+        qualityDesc: "Fabrication de meubles modernes de haute qualité avec garantie. Chaque pièce est conçue pour durer et sublimer votre espace.",
+        customerTitle: "Sur Mesure",
+        customerDesc: "Nous créons des meubles personnalisés selon vos besoins et dimensions. Chaque projet est unique et adapté à votre espace.",
+        passionTitle: "Expertise Artisanale",
+        passionDesc: "Notre usine de fabrication à Calavi combine savoir-faire traditionnel et techniques modernes pour des créations exceptionnelles.",
+        eleganceTitle: "Design Moderne & Chic",
+        eleganceDesc: "Nos créations allient esthétique contemporaine et élégance intemporelle pour des intérieurs sophistiqués.",
         ctaTitle: "Prêt à Transformer Votre Espace ?",
         ctaDesc: "Travaillons ensemble pour créer la maison de vos rêves. Parcourez notre collection ou contactez-nous pour des recommandations personnalisées.",
         viewGallery: "Voir Notre Galerie",
@@ -64,14 +64,14 @@ const resources = {
         supportDesc: "Assistance dédiée"
       },
       footer: {
-        description: "Créer de beaux espaces avec des meubles de luxe et un service exceptionnel.",
+        description: "Fabrication de meubles modernes sur mesure de qualité supérieure. Ameublement et décoration intérieure avec garantie.",
         quickLinks: "Liens Rapides",
         contact: "Contact",
         phone: "Téléphone",
         email: "Email",
-        location: "Emplacement",
+        location: "Localisation",
         rights: "Tous droits réservés.",
-        callNow: "Appeler Maintenant",
+        callNow: "Appeler",
         whatsapp: "WhatsApp"
       },
       gallery: {
@@ -81,14 +81,11 @@ const resources = {
         noProducts: "Aucun produit trouvé dans cette catégorie."
       },
       categories: {
-        "Entryway & Decor": "Entrée et Décor",
-        "Living Room": "Salon",
-        "Dining Room": "Salle à Manger",
-        "Bedroom": "Chambre",
-        "Kitchen": "Cuisine",
-        "Decor & Storage": "Décor et Rangement",
-        "Office": "Bureau",
-        "Wine Storage": "Cave à Vin"
+        "Cuisine": "Cuisine",
+        "Chambre": "Chambre",
+        "Salon": "Salon",
+        "Chambre & Rangement": "Chambre & Rangement",
+        "Décoration & Entrée": "Décoration & Entrée"
       }
     }
   },
@@ -100,10 +97,10 @@ const resources = {
         about: "About"
       },
       hero: {
-        title: "Luxury Furniture for",
-        subtitle: "Your Dream Home",
-        description: "Transform your living spaces with our exquisite collection of handcrafted furniture and elegant home décor pieces.",
-        exploreGallery: "Explore Gallery",
+        title: "Custom Modern Furniture",
+        subtitle: "High Quality & Elegant",
+        description: "Manufacturing premium quality custom modern furniture with guarantee. Furnishing, renovation and interior decoration for residential and commercial spaces.",
+        exploreGallery: "Discover Our Creations",
         contactUs: "Contact Us"
       },
       featured: {
@@ -112,25 +109,25 @@ const resources = {
         viewAll: "View All Products"
       },
       about: {
-        whyChoose: "Why Choose D'Assise Déco?",
-        description: "With years of expertise in luxury furniture and home décor, we bring you the finest craftsmanship and timeless designs. Each piece is carefully selected to transform your house into a home you'll love.",
+        whyChoose: "Why Choose DF HOUSE?",
+        description: "Specialized in manufacturing high-quality custom modern furniture, chic and elegant with guarantee. Located in Calavi, we transform your spaces with excellence and professionalism.",
         learnMore: "Learn More About Us",
-        title: "Our Story",
+        title: "Our Expertise",
         mission: "Our Mission",
         values: "Our Values",
-        story1: "D'Assise Déco was born from a passion for transforming houses into homes. We believe that furniture is more than just functional pieces – it's an expression of your personality, style, and the life you want to live.",
-        story2: "Our journey began with a simple mission: to make luxury furniture accessible to those who appreciate quality craftsmanship and timeless design. Today, we're proud to offer a carefully curated collection of bedroom sets, living room furniture, dining pieces, and decorative items that elevate any space.",
-        story3: "Every product in our collection is selected with care, ensuring it meets our high standards for quality, aesthetics, and functionality. We work directly with skilled craftsmen and trusted manufacturers to bring you furniture that will last for years to come.",
+        story1: "DF HOUSE AMEUBLEMENT ET DÉCOR specializes in manufacturing high-quality custom modern furniture, chic and elegant with guarantee. We create unique spaces that reflect your personality and lifestyle.",
+        story2: "Our factory located in Calavi produces a wide range of furniture: upholstered beds, modern beds, coffee tables, upholstered sofas, divans, modern TV units, TV corners, wall TV panels, side tables, dressings, wardrobes, dining tables, custom kitchen furniture, American kitchens, office desks, vanities, storage shelves and more.",
+        story3: "We also equip your commercial and professional spaces: shops, wine cellars, ready-to-wear, hair salons, bars, restaurants, hotels, apartments. Furnishing, apartment renovation and interior decoration with superior quality guarantee.",
         valuesTitle: "Our Values",
         valuesDesc: "The principles that guide everything we do",
-        qualityTitle: "Quality Excellence",
-        qualityDesc: "We source only the finest materials and work with skilled craftsmen to ensure every piece meets our exacting standards.",
-        customerTitle: "Customer First",
-        customerDesc: "Your satisfaction is our priority. We provide personalized service and support throughout your furniture journey.",
-        passionTitle: "Passion for Design",
-        passionDesc: "We love what we do and it shows in every carefully curated piece in our collection.",
-        eleganceTitle: "Timeless Elegance",
-        eleganceDesc: "Our furniture combines contemporary aesthetics with classic design principles for lasting beauty.",
+        qualityTitle: "Superior Quality Guaranteed",
+        qualityDesc: "Manufacturing modern furniture of high quality with guarantee. Each piece is designed to last and enhance your space.",
+        customerTitle: "Custom Made",
+        customerDesc: "We create custom furniture according to your needs and dimensions. Each project is unique and adapted to your space.",
+        passionTitle: "Artisanal Expertise",
+        passionDesc: "Our manufacturing factory in Calavi combines traditional craftsmanship with modern techniques for exceptional creations.",
+        eleganceTitle: "Modern & Chic Design",
+        eleganceDesc: "Our creations combine contemporary aesthetics and timeless elegance for sophisticated interiors.",
         ctaTitle: "Ready to Transform Your Space?",
         ctaDesc: "Let's work together to create the home of your dreams. Browse our collection or get in touch for personalized recommendations.",
         viewGallery: "View Our Gallery",
@@ -154,14 +151,14 @@ const resources = {
         supportDesc: "Dedicated assistance"
       },
       footer: {
-        description: "Creating beautiful spaces with luxury furniture and exceptional service.",
+        description: "Manufacturing premium quality custom modern furniture. Furnishing and interior decoration with guarantee.",
         quickLinks: "Quick Links",
         contact: "Contact",
         phone: "Phone",
         email: "Email",
         location: "Location",
         rights: "All rights reserved.",
-        callNow: "Call Now",
+        callNow: "Call",
         whatsapp: "WhatsApp"
       },
       gallery: {
@@ -171,14 +168,11 @@ const resources = {
         noProducts: "No products found in this category."
       },
       categories: {
-        "Entryway & Decor": "Entryway & Decor",
-        "Living Room": "Living Room",
-        "Dining Room": "Dining Room",
-        "Bedroom": "Bedroom",
-        "Kitchen": "Kitchen",
-        "Decor & Storage": "Decor & Storage",
-        "Office": "Office",
-        "Wine Storage": "Wine Storage"
+        "Cuisine": "Kitchen",
+        "Chambre": "Bedroom",
+        "Salon": "Living Room",
+        "Chambre & Rangement": "Bedroom & Storage",
+        "Décoration & Entrée": "Decor & Entryway"
       }
     }
   }

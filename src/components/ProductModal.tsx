@@ -22,8 +22,8 @@ const ProductModal = ({ product, open, onOpenChange }: ProductModalProps) => {
   if (!product) return null;
 
   const handleBuyNow = () => {
-    const message = `Hello! I'd like to purchase the ${product.name} (${product.price}). Please provide ordering details.`;
-    const whatsappUrl = `https://wa.me/22961206674?text=${encodeURIComponent(message)}`;
+    const message = `Bonjour! Je souhaite commander ${product.name} (${product.price}). Merci de me fournir les détails de commande.`;
+    const whatsappUrl = `https://wa.me/22961471700?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

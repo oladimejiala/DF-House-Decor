@@ -4,13 +4,16 @@ import Footer from "@/components/Footer";
 import { Award, Users, Heart, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
+import kitchenIsland from '@/assets/products/modern-kitchen-island.jpg';
+import tvUnit2 from '@/assets/products/tv-wall-unit-2.jpg';
+import wardrobe1 from '@/assets/products/wardrobe-1.jpg';
 
 const About = () => {
   const { t } = useTranslation();
   const heroImages = [
-    "/images/products/dining-set.jpg",
-    "/images/products/modern-kitchen.jpg",
-    "/images/products/diamond-wall-shelf.jpg"
+    kitchenIsland,
+    tvUnit2,
+    wardrobe1
   ];
   const [currentHeroImage] = useState(heroImages[Math.floor(Math.random() * heroImages.length)]);
   
@@ -53,9 +56,12 @@ const About = () => {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white drop-shadow-lg">
-              <span className="gold-gradient-text">D'Assise Déco</span>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white drop-shadow-lg">
+              <span className="gold-gradient-text">DF HOUSE</span>
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-white drop-shadow-lg">
+              AMEUBLEMENT ET DÉCOR
+            </h2>
             <p className="text-xl text-white/90 leading-relaxed drop-shadow">
               {t('about.description')}
             </p>
@@ -132,7 +138,7 @@ const About = () => {
                   {t('about.viewGallery')}
                 </Button>
               </a>
-              <a href="https://wa.me/22961206674" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/22961471700" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="text-lg px-8 py-6">
                   {t('about.contactWhatsapp')}
                 </Button>

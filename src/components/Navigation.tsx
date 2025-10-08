@@ -15,8 +15,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <h1 className="text-2xl md:text-3xl font-bold text-primary">
-              D'Assise Déco
+            <h1 className="text-xl md:text-2xl font-bold text-primary">
+              DF HOUSE AMEUBLEMENT ET DÉCOR
             </h1>
           </Link>
 
@@ -33,14 +33,14 @@ const Navigation = () => {
             </Link>
             <Button 
               variant="ghost"
-              onClick={() => window.location.href = 'tel:+2290161206674'}
+              onClick={() => window.location.href = 'tel:+22961471700'}
               className="text-primary hover:text-primary-dark"
             >
               {t('footer.callNow')}
             </Button>
             <Button
               variant="ghost"
-              onClick={() => window.open('https://wa.me/22961206674', '_blank')}
+              onClick={() => window.open('https://wa.me/22961471700', '_blank')}
               className="text-primary hover:text-primary-dark"
             >
               {t('footer.whatsapp')}
@@ -86,14 +86,14 @@ const Navigation = () => {
             </Link>
             <Button 
               variant="ghost"
-              onClick={() => window.location.href = 'tel:+2290161206674'}
+              onClick={() => window.location.href = 'tel:+22961471700'}
               className="w-full justify-start text-primary"
             >
               {t('footer.callNow')}
             </Button>
             <Button
               variant="ghost"
-              onClick={() => window.open('https://wa.me/22961206674', '_blank')}
+              onClick={() => window.open('https://wa.me/22961471700', '_blank')}
               className="w-full justify-start text-primary"
             >
               {t('footer.whatsapp')}

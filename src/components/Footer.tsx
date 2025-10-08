@@ -12,7 +12,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-primary">D'Assise Déco</h3>
+            <h3 className="text-xl font-bold text-primary">DF HOUSE</h3>
+            <p className="text-xs font-semibold text-primary">AMEUBLEMENT ET DÉCOR</p>
             <p className="text-muted-foreground text-sm">
               {t('footer.description')}
             </p>
@@ -49,9 +50,9 @@ const Footer = () => {
                 <Button
                   variant="link"
                   className="h-auto p-0 text-sm text-muted-foreground hover:text-primary"
-                  onClick={() => window.location.href = 'tel:+2290161206674'}
+                  onClick={() => window.location.href = 'tel:+22961471700'}
                 >
-                  {t('footer.callNow')}
+                  +229 61 47 17 00
                 </Button>
               </li>
               <li className="flex items-center space-x-2 text-sm">
@@ -59,7 +60,7 @@ const Footer = () => {
                 <Button
                   variant="link"
                   className="h-auto p-0 text-sm text-muted-foreground hover:text-primary"
-                  onClick={() => window.open('https://wa.me/22961206674', '_blank')}
+                  onClick={() => window.open('https://wa.me/22961471700', '_blank')}
                 >
                   {t('footer.whatsapp')}
                 </Button>
@@ -73,7 +74,7 @@ const Footer = () => {
             <div className="flex items-start space-x-2 text-sm">
               <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
               <p className="text-muted-foreground">
-                Location details coming soon
+                Calavi, Bénin 🇧🇯
               </p>
             </div>
           </div>
@@ -82,7 +83,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © 2025 D'Assise Déco. {t('footer.rights')}
+              © 2025 DF HOUSE AMEUBLEMENT ET DÉCOR. {t('footer.rights')}
             </p>
             <div className="flex space-x-4 text-sm text-muted-foreground">
               <a href="/sitemap.xml" className="hover:text-primary transition-colors">
@@ -97,15 +98,20 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Google Maps Placeholder */}
+      {/* Google Maps */}
       <div className="border-t border-border">
         <div className="container mx-auto px-4 py-8">
-          <div className="bg-muted rounded-lg h-64 flex items-center justify-center">
-            <div className="text-center space-y-2">
-              <MapPin className="w-12 h-12 text-primary mx-auto" />
-              <p className="text-muted-foreground">Google Maps Integration</p>
-              <p className="text-sm text-muted-foreground">Location map will be embedded here</p>
-            </div>
+          <div className="rounded-lg overflow-hidden shadow-lg h-96">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6791234567894!2d2.3469025!3d6.4497394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a901bbe73a13%3A0x550649ee69153ef6!2sDF%20HOUSE%20AMEUBLEMENT%20ET%20DECO%20B%C3%A9nin%20%F0%9F%87%A7%F0%9F%87%AF!5e0!3m2!1sfr!2s!4v1234567890"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="DF HOUSE AMEUBLEMENT ET DÉCOR Location"
+            />
           </div>
         </div>
       </div>
